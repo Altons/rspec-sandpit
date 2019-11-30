@@ -1,0 +1,15 @@
+require: rubocop-rails
+
+
+AllCops:
+  Exclude:
+    - 'bin/**/*'
+    - 'db/**/*'
+    - 'log/**/*'
+    - 'tmp/**/*'
+    - 'vendor/**/*'
+    - 'Guardfile'
+  DisplayCopNames: true
+  TargetRubyVersion: 2.6.3
+
+
